@@ -56,6 +56,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="158" height="224"/>
+                                        <connections>
+                                            <outlet property="backImageView" destination="4sa-qh-CYw" id="g8H-m6-7L4"/>
+                                            <outlet property="frontImageView" destination="c6i-hF-2D5" id="Uhx-az-2Zp"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -73,6 +77,9 @@
                             <constraint firstAttribute="bottom" secondItem="0Md-fp-2eE" secondAttribute="bottom" id="yBi-ak-wLG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collecionView" destination="L9S-s2-aNq" id="iRI-ME-FLc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
