@@ -20,14 +20,13 @@ class CardCollectionViewCell: UICollectionViewCell {
         self.card = card
         
         //Set the front image view to the image that represent the card
-        
         frontImageView.image = UIImage(named: card.imageName)
     }
     
-    //Flip up animation
-    
     func flipUp(){
-        UIView.transition(from: backImageView, to: frontImageView, duration: 0.5, options: [.showHideTransitionViews,.transitionFlipFromLeft], completion: nil)
+        
+        //Flip up animation
+        UIView.transition(from: backImageView, to: frontImageView, duration: 0.4, options: [.showHideTransitionViews,.transitionFlipFromLeft], completion: nil)
     }
     
     func flipDown() {
