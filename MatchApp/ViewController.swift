@@ -57,7 +57,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         //Get a reference to the cell that was tapped
         let cell = collectionView.cellForItem(at: indexPath) as? CardCollectionViewCell
         
-        cell?.flipUp()
+        // Chceck the status of the card deteriine how to flip it
+       if cell?.card?.isFlipped == false {
+            
+            cell?.flipUp()
+       }
+       else{
+        
+        cell?.flipDown()
+       }
+    
     }
 }
 
