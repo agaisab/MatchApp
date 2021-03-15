@@ -9,7 +9,6 @@ import Foundation
 
 class CardModel {
     
-    
     func getCards() -> [Card] {
         
         // Declare an empty array of CardsObjects

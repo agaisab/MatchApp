@@ -45,9 +45,25 @@ class CardCollectionViewCell: UICollectionViewCell {
     
     func flipDown(speed:TimeInterval = 0.3) {
         
+        
+        
         UIView.transition(from: frontImageView, to: backImageView, duration: speed, options: [.showHideTransitionViews,.transitionFlipFromLeft], completion: nil)
         
         // Set the status of the card
         card?.isFlipped = false
+        
     }
+    func remove() {
+        
+        //Make the image views inivible
+        backImageView.alpha = 0
+        UIView.animate(withDuration: 0.3, delay: 0.5, options: .curveEaseOut, animations: {
+            
+            self.frontImageView.alpha = 0
+            
+        }, completion:  nil)
+    }
+
 }
+
+
