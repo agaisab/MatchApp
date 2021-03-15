@@ -53,6 +53,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        // configure the state of the cell based on the properties of the card that it represents
+    }
     //MARK: Protocol UIColletionViewDelegate
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     
@@ -60,7 +63,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let cell = collectionView.cellForItem(at: indexPath) as? CardCollectionViewCell
         
         // Chceck the status of the card deteriine how to flip it
-       if cell?.card?.isFlipped == false {
+        if cell?.card?.isFlipped == false && cell?.card?.isMatched == false {
             
             cell?.flipUp()
         
