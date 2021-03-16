@@ -1,6 +1,6 @@
 # MatchApp
 
->  I had make app ispired by CodeWithChris Toutorial and lessons. 
+>  I had made app ispired by CodeWithChris Toutorial and lessons. 
 Its a simlpe logic game based on popular matching Card Game. 
 
 
