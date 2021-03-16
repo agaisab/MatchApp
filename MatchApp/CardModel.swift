@@ -13,7 +13,7 @@ class CardModel {
         
         // Declare an empty array of CardsObjects
         var cardsArray = [Card]()
-        
+        // Declare array to store numbers that we generated
         var numofPairs = [Int]()
      
         // Randomly generete 8 pair of cards without doubles
@@ -36,8 +36,10 @@ class CardModel {
                 //Add them to the array
                 cardsArray.append(cardOne)
                 cardsArray.append(cardTwo)
+                
+                //Add this number to numofPairs
                 numofPairs.append(randomNumber)
-                print(randomNumber)
+                
             }
             
         } while (numofPairs.count<8)
