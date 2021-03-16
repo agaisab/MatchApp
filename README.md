@@ -1,4 +1,5 @@
-# MatchApp.
+# MatchApp
+
 >  I had make app ispired by CodeWithChris Toutorial and lessons. 
 Its a simlpe logic game based on popular matching Card Game. 
 
@@ -15,9 +16,11 @@ Its a simlpe logic game based on popular matching Card Game.
 
 ## General info
 
-In this project i had lerned how to implemented and use some elements and structures of Swift frameworks.
-Foundation, UIKit, AVFoundation. I had lerned about MVC pattern, Protocol & Delegates comunicate pattern.
-And foundamental storyboard app creations by Views. Add more general information about project. 
+In this project i had lerned basics of programming in Swift.
+Next i had focused on implementing and usege of some elements and structures of Swift frameworks.
+Foundation, UIKit, AVFoundation. 
+I had lerned about MVC pattern, Protocol & Delegate comunication pattern.
+And foundamental storyboard app creating, by Views. 
 
 ## Screenshots
 ![Example Screenshot1](./Screenshots/matchApp_screenshot1.png)
@@ -27,10 +30,10 @@ And foundamental storyboard app creations by Views. Add more general information
 * Tech 1 - version 1.0
 
 ## Setup
-Import to Xcode and Simulate on your Device. 
+Import project to Xcode and Simulate on your Device. 
 
 ## Code Examples
-`nil-at-the-moment` :)
+`---` :)
 
 ## Features
 TODOs for future development:
