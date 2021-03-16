@@ -14,7 +14,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     @IBOutlet weak var timerLabel: UILabel!
     
     var timer: Timer?
-    var miliseconds: Int = 60 * 1000
+    var miliseconds: Int = 10 * 1000
     
     let model = CardModel()
     var cardsArray = [Card]()
@@ -216,7 +216,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let alert = UIAlertController (title: title, message: message, preferredStyle: .alert)
         
         // Add a buttopn for the user to dismiss it
-        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        let okAction = UIAlertAction(title: "OK", style: .destructive, handler: nil )
+   
         alert.addAction(okAction)
         
         // show the alert

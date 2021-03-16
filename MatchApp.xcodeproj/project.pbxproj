@@ -21,6 +21,9 @@
 		E2C4E8292600C65E00113E31 /* incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2C4E8252600C65E00113E31 /* incorrect.wav */; };
 		E2C4E82A2600C65E00113E31 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2C4E8262600C65E00113E31 /* correct.wav */; };
 		E2C4E82B2600C65E00113E31 /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2C4E8272600C65E00113E31 /* shuffle.wav */; };
+		E2C4E8362600D13200113E31 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E2C4E8352600D13200113E31 /* README.md */; };
+		E2C4E8412600D2E100113E31 /* matchApp_screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C4E83F2600D2E100113E31 /* matchApp_screenshot1.png */; };
+		E2C4E8422600D2E100113E31 /* matchApp_screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C4E8402600D2E100113E31 /* matchApp_screenshot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		E2C4E8252600C65E00113E31 /* incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = incorrect.wav; path = ../../../../../Desktop/Sounds/incorrect.wav; sourceTree = "<group>"; };
 		E2C4E8262600C65E00113E31 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = ../../../../../Desktop/Sounds/correct.wav; sourceTree = "<group>"; };
 		E2C4E8272600C65E00113E31 /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shuffle.wav; path = ../../../../../Desktop/Sounds/shuffle.wav; sourceTree = "<group>"; };
+		E2C4E8352600D13200113E31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Desktop/README.md; sourceTree = "<group>"; };
+		E2C4E83F2600D2E100113E31 /* matchApp_screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matchApp_screenshot1.png; sourceTree = "<group>"; };
+		E2C4E8402600D2E100113E31 /* matchApp_screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matchApp_screenshot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		E2AD2EDB25F7B3010051851E = {
 			isa = PBXGroup;
 			children = (
+				E2C4E8352600D13200113E31 /* README.md */,
 				E2AD2EE625F7B3010051851E /* MatchApp */,
 				E2AD2EE525F7B3010051851E /* Products */,
 			);
@@ -72,6 +79,7 @@
 		E2AD2EE625F7B3010051851E /* MatchApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2C4E8342600D12B00113E31 /* Screenshots */,
 				E2C4E8162600BFD000113E31 /* Sounds */,
 				E2AD2EE725F7B3010051851E /* AppDelegate.swift */,
 				E2AD2EE925F7B3010051851E /* SceneDelegate.swift */,
@@ -97,6 +105,15 @@
 				E2C4E8272600C65E00113E31 /* shuffle.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E2C4E8342600D12B00113E31 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E2C4E83F2600D2E100113E31 /* matchApp_screenshot1.png */,
+				E2C4E8402600D2E100113E31 /* matchApp_screenshot2.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,12 +173,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C4E8422600D2E100113E31 /* matchApp_screenshot2.png in Resources */,
 				E2AD2EF425F7B3020051851E /* LaunchScreen.storyboard in Resources */,
+				E2C4E8412600D2E100113E31 /* matchApp_screenshot1.png in Resources */,
 				E2C4E8292600C65E00113E31 /* incorrect.wav in Resources */,
 				E2C4E8282600C65E00113E31 /* cardFlip.wav in Resources */,
 				E2C4E82B2600C65E00113E31 /* shuffle.wav in Resources */,
 				E2AD2EF125F7B3020051851E /* Assets.xcassets in Resources */,
 				E2AD2EEF25F7B3010051851E /* Main.storyboard in Resources */,
+				E2C4E8362600D13200113E31 /* README.md in Resources */,
 				E2C4E82A2600C65E00113E31 /* correct.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
