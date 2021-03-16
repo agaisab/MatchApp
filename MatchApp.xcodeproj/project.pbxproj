@@ -63,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C4E84C2600D81F00113E31 /* README.md */,
+				E2C4E8342600D12B00113E31 /* Screenshots */,
 				E2AD2EE625F7B3010051851E /* MatchApp */,
 				E2AD2EE525F7B3010051851E /* Products */,
 			);
@@ -80,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				E2C4E8442600D6F200113E31 /* README.md */,
-				E2C4E8342600D12B00113E31 /* Screenshots */,
 				E2C4E8162600BFD000113E31 /* Sounds */,
 				E2AD2EE725F7B3010051851E /* AppDelegate.swift */,
 				E2AD2EE925F7B3010051851E /* SceneDelegate.swift */,
