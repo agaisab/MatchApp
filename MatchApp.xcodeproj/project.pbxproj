@@ -46,6 +46,7 @@
 		E2C4E8352600D13200113E31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Desktop/README.md; sourceTree = "<group>"; };
 		E2C4E83F2600D2E100113E31 /* matchApp_screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matchApp_screenshot1.png; sourceTree = "<group>"; };
 		E2C4E8402600D2E100113E31 /* matchApp_screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matchApp_screenshot2.png; sourceTree = "<group>"; };
+		E2C4E8442600D6F200113E31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		E2AD2EE625F7B3010051851E /* MatchApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2C4E8442600D6F200113E31 /* README.md */,
 				E2C4E8342600D12B00113E31 /* Screenshots */,
 				E2C4E8162600BFD000113E31 /* Sounds */,
 				E2AD2EE725F7B3010051851E /* AppDelegate.swift */,
